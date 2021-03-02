@@ -1,0 +1,41 @@
+.benefits {
+  background-color: green;
+}
+@media (max-width: 534px) {
+  .benefits {
+    flex: none;
+    max-width: 100%;
+  }
+}
+.login {
+  background-color: brown;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.material-icons {
+  vertical-align: middle;
+}
+
+.card img {
+  /* height: 250px;
+  width: auto; */
+
+  display: block;
+  min-width: 150px;
+  min-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: red;
+}
